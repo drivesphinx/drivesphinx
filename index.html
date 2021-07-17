@@ -1186,7 +1186,7 @@
               default:
                 let textWrapper = document.createElement("div");
                 textWrapper.style.textAlign = "center";
-                textWrapper.innerHTML = "该文件不支持预览";
+                textWrapper.innerHTML = "Este documento no admite vistas previas";
                 content.innerHTML = "";
                 content.appendChild(textWrapper);
                 break;
@@ -1226,7 +1226,7 @@
                 );
                 const btn = document.querySelector(".btn.share");
                 btn.innerHTML = "已复制";
-                setTimeout(() => (btn.innerHTML = "分享"), 250);
+                setTimeout(() => (btn.innerHTML = "Compartir"), 250);
               });
             switchRightDisplay("preview");
 
@@ -1603,9 +1603,9 @@
           <div class="preview">
             <div class="info">
               <div class="file-name"></div>
-              <div class="btn download">下载</div>
-              <div class="btn quote">引用</div>
-              <div class="btn share">分享</div>
+              <div class="btn download">DESCARGAR</div>
+              <div class="btn quote">Citar</div>
+              <div class="btn share">Compartir</div>
             </div>
             <div class="content"></div>
           </div>
